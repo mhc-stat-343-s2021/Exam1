@@ -1,0 +1,62 @@
+---
+title: "Exam 1"
+subtitle: "STAT 343: Mathematical Statistics"
+output: pdf_document
+---
+
+- This exam is **due to Gradescope at 5 PM ET on Sunday, April 11, 2021.** This is a firm deadline. 
+- There are two exam questions, each with multiple parts. 
+- This is a closed notes, closed book, closed Moodle exam. You may use the probability distributions and conjugate prior distribution PDFs that are included with the exam when you pull it from Github. Other resources, besides R, are not permitted.
+- Once you have accessed the exam, you may only ask for clarification on questions from the instructor. Do not communicate with any other students about the exam until after the exams have been returned. Any such communication is a violation of the Honor Code.
+- If you become aware of any honor code violations, you have a duty to report them to the Honor Code Council.
+
+\newpage
+
+## Problem 1
+
+Find a new shiny coin, preferably whatever you have that is closest to a U.S. penny.
+
+(a) Hold it on its edge and spin it. Do this 20 times and count the number of times it comes to rest heads up. Letting $\pi$ denote the probability of a head, graph the log likelihood of $\theta$. You may do this in R or by hand.
+
+
+
+(b) Write down the log likelihood that corresponds to the experiment in (a).
+
+
+
+(c) Find the maximum likelihood estimator for $\theta$ from (a).
+
+
+
+(d) Repeat the experiment in (a), but this time, spin the coin until 10 heads come up. Graph the log likelihood of $\theta$. Again, $\theta$ denotes the probability of a head. You may make your graph in R or by hand.
+
+
+
+(e) What is the log likelihood that correspond to the experiment in (d)?
+
+ 
+ 
+(f) Find the maximum likelihood estimator for $\theta$ from (d).
+
+
+
+(g) Using your figure from (d), explain the Newton Raphson algorithm. You may use a combination of illustration on the figure and words to complete your answer. 
+
+
+\newpage
+
+
+## Problem 2
+
+Suppose I want to get some exercise, so I go out to shoot baskets on a basketball court. I decide to shoot baskets until I make 20, at which point I will go home; $\Theta$ denotes my probability of making a basket on each shot. 
+
+(a) Given the context of the problem, write down an appropriate data model for the number of misses I have before I make a shot. You may assume that each shot is independent.
+
+
+(b) Using the provided document on conjugate priors, identify an appropriate prior distribution for $\pi$, the probability that I make a basket on each shot.
+
+
+(c) Derive the posterior distribution for $\Theta$. Clearly identify the parameteric family to which the posterior belongs, as well as the parameters of the posterior distribution. 
+
+
+(d) What is the posterior mean estimator for $\Theta$?
